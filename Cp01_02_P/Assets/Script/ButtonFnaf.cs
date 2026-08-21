@@ -2,11 +2,14 @@ using UnityEngine;
 
 public class ButtonFnaf : MonoBehaviour
 {
-    [SerializeField] Animator animator;
-    [SerializeField] GameObject buttonRight;
-    [SerializeField] GameObject buttonLeft;
-    [SerializeField] GameObject buttonBackLeft;
-    [SerializeField] GameObject buttonBackRight;
+    public Animator animator;
+    [Header("Front")]
+    public GameObject buttonRight;
+    public GameObject buttonLeft;
+    [Header("Left")]
+    public GameObject buttonBackLeft;
+    [Header("Right")]
+    public GameObject buttonBackRight;
 
     public void Awake()
     {
