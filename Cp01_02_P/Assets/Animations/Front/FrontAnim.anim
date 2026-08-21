@@ -6,8 +6,8 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: IdleAnimFront
-  serializedVersion: 7
+  m_Name: FrontAnim
+  serializedVersion: 8
   m_Legacy: 0
   m_Compressed: 0
   m_UseHighQualityCurve: 1
@@ -22,22 +22,22 @@ AnimationClip:
     curve:
     - time: 0
       value: {fileID: -4621116071409880670, guid: 14aff9e584c86634da10c23a26f229f9, type: 3}
-    - time: 0.23333333
+    - time: 0.16666667
       value: {fileID: -1499344387, guid: 14aff9e584c86634da10c23a26f229f9, type: 3}
-    - time: 0.46666667
+    - time: 0.33333334
       value: {fileID: 1513325664, guid: 14aff9e584c86634da10c23a26f229f9, type: 3}
-    - time: 0.7
+    - time: 0.5
       value: {fileID: 323794378, guid: 14aff9e584c86634da10c23a26f229f9, type: 3}
-    - time: 0.93333334
+    - time: 0.6666667
       value: {fileID: 1965099193, guid: 14aff9e584c86634da10c23a26f229f9, type: 3}
-    - time: 1.1666666
+    - time: 0.8333333
       value: {fileID: -1655535405, guid: 14aff9e584c86634da10c23a26f229f9, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
     script: {fileID: 0}
     flags: 2
-  m_SampleRate: 60
+  m_SampleRate: 12
   m_WrapMode: 0
   m_Bounds:
     m_Center: {x: 0, y: 0, z: 0}
@@ -53,6 +53,7 @@ AnimationClip:
       isPPtrCurve: 1
       isIntCurve: 0
       isSerializeReferenceCurve: 0
+      metaData: 0
     pptrCurveMapping:
     - {fileID: -4621116071409880670, guid: 14aff9e584c86634da10c23a26f229f9, type: 3}
     - {fileID: -1499344387, guid: 14aff9e584c86634da10c23a26f229f9, type: 3}
@@ -65,7 +66,7 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 1.1833333
+    m_StopTime: 0.9166666
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
